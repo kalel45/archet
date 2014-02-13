@@ -1,0 +1,58 @@
+/*
+Theme Name: mon_theme
+Theme URI: http://example.com/
+Description: Exemple Thème enfant
+Author: Yacine Ait-Maamar
+Author URI: 
+Template: twentyfourteen
+Version: 1.0.0
+
+*/
+
+@import url("../twentyfourteen/style.css");
+
+/* = Theme customization starts here */
+
+#map{
+	width: 80% !important;
+	border-radius: 10px;
+	box-shadow: 5px 3px;
+	margin-bottom: 40px;
+}
+
+.page-title{
+	text-align: center;
+	font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+
+.entry-title{
+	font-family: 'message-box', serif;
+    font-size: 48px;
+}
+
+.entry-header {
+	margin-top: 40px !important;
+}
+
+article{
+	width:70%; 
+	box-shadow: 1px 1px 20px  #888888;
+	padding-top: 30px;
+
+	border-radius: 20px 20px 20px 10px; 
+}
+
+.monImage img{
+	border-radius: 10px;
+}
+
+.widget-title{
+	padding-top: 50px;
+}
+
+/*#tag_cloud-2{
+	width: 162px;
+	position: fixed;
+
+}*/
